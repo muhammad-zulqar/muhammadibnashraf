@@ -1,0 +1,76 @@
+header {
+    background-color: rgb(224, 135, 10);
+    text-align: center;
+    color: rgb(6, 1, 1);
+}
+.la {
+    text-align: right;
+    margin: none;
+    inline-size: 100%;
+}
+.la a, .la button {
+    margin-right: 15px; /* Add space between the links and button */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set link color */
+}
+.la button {
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove border from the button */
+    background-color: rgba(0, 0, 255, 0.637); /* Set button background color */
+    color: white; /* Set button text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.la a:last-child, .la button:last-child {
+    margin-right: 0; /* Remove right margin from the last element */
+}
+main {
+    background-color: grey;
+    text-align: center;
+}
+footer {
+    background-color: rgb(38, 27, 38);
+    color: white;
+}
+.social {
+    text-align: center;
+    margin-right: 15px;
+    margin-right: 0;
+  mask-image: -o-linear-gradient();
+}
+b{
+    colo
+}
+.copy{
+    text-align: center;
+}
+hr{
+    color: black;
+}
+header{
+    background-image: url(https://healthwire.pk/wp-content/uploads/2022/04/disadvantages-of-fast-food.jpg);
+}
+footer{
+    text-align: center;
+}
+.profile-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-photo-container input[type="file"] {
+    display: none;
+}
+
+.profile-photo-container label {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 150px;
+    cursor: pointer;
+    border: 2px dashed #ccc;
+}
