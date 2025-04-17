@@ -1,0 +1,41 @@
+nav{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+header{
+    background-image: url(https://cas.umw.edu/computerscience/files/2024/09/computerscience-scaled.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+main{
+    background-color: rgba(16, 13, 9, 0.746);
+    color: rgb(247, 247, 247);
+    text-align: center;
+}
+footer{
+    background-color: rgb(8, 3, 14);
+    color: white;
+    text-align: center;
+}
+.photo{
+    border-radius: 50%; /* Makes the image circular */
+    width: 300px; /* Adjust the width */
+    height: 300px; /* Adjust the heigh*/
+    float: right;
+}
+.photo, img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for scaling and shadow */
+}
+
+.photo:hover, img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+body{
+    background-color: black;
+}
+a{
+    color: white;
+}
