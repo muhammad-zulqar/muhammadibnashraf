@@ -4,7 +4,7 @@ if (a > 18){
 }else{
     console.log('You are not eligible for driving');
 }
-alert("Khali Dekh ke chhorna mat Job bhi dena");
+alert("This is my personal websites that i shred you!");
 let h1 = document.createElement('h1');
 console.dir(h1);
 let para = document.getElementsByTagName('p');
