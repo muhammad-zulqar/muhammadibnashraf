@@ -35,6 +35,7 @@ footer{
 }
 body{
     background-color: black;
+    background-image: url(https://cas.umw.edu/computerscience/files/2024/09/computerscience-scaled.jpg);
 }
 a{
     color: white;
@@ -42,4 +43,7 @@ a{
 .para{
     height: 500px;
     width: 500px;
+}
+#myphoto{
+    height: fit-content;
 }
