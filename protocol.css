@@ -23,7 +23,8 @@ footer{
     border-radius: 50%; /* Makes the image circular */
     width: 300px; /* Adjust the width */
     height: 300px; /* Adjust the heigh*/
-    float: right;
+    float: left; /* Moves the image to the left */
+    margin: 20px; /* Adds spacing around the image */
 }
 .photo, img {
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for scaling and shadow */
@@ -43,7 +44,12 @@ a{
 .para{
     height: 500px;
     width: 500px;
+    text-align: center;
 }
 #myphoto{
-    height: fit-content;
+    height: 1000px;
+    width: 1000px;
+}
+.text{
+    text-align: center;
 }
