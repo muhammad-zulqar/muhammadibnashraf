@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Navbar with Close Icon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    nav {
+      background-color: #111;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      position: relative;
+    }
+
+    .nav-logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #00bcd4;
+    }
+
+    .close-icon {
+      position: absolute;
+      top: 15px;
+      right: 30px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .close-icon:hover {
+      color: #ff5252;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">MyWebsite</div>
+    <div class="nav-links">
+      <a href="index.html">Back to Home</a>
+      <a href="abu.html">About</a>
+      <a href="cont.html">Contact</a>
+    </div>
+    <div>
+    <a href="index.html" class="close-icon"><i class="fas fa-times"></i></a>
+</div>
+  </nav>
+
+</body>
+</html>
