@@ -104,3 +104,13 @@ ol{
 img {
     animation: bounce 2s infinite; /* Apply the bounce animation */
 }
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .nav-links a:hover {
+    color: #007BFF;
+  }
+  
